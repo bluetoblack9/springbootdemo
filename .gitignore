@@ -1,0 +1,6 @@
+/target/
+/app.log
+/.settings/
+/.classpath
+/.project
+/app*
