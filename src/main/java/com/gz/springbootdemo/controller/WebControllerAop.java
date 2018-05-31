@@ -93,7 +93,6 @@ public class WebControllerAop {
      */  
     @Around(value = "executeService()")  
     public Object doAroundAdvice(ProceedingJoinPoint proceedingJoinPoint){  
-    	System.out.println("环绕通知的参数："+proceedingJoinPoint.getArgs()[0]);
         System.out.println("环绕通知的目标方法名："+proceedingJoinPoint.getSignature().getName());  
         try {//obj之前可以写目标方法执行前的逻辑  
             Object obj = proceedingJoinPoint.proceed();//调用执行目标方法  
