@@ -1,4 +1,4 @@
-package com.gz.springbootdemo.controller;
+package com.gz.springbootdemo.rest;
 
 
 import org.slf4j.Logger;
